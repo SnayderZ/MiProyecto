@@ -12,6 +12,7 @@ public class CreateOrderDetailDto(int productId, decimal unitPrice, short quanti
     public decimal UnitPrice => unitPrice;
     public short Quatity => quantity;
 
+
 }
 
 
