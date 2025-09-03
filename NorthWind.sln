@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Enterprise Business Rules Application", "1. Enterprise Business Rules Application", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
@@ -11,9 +11,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Interfaces Adapters", "3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Frameworks And Drivers", "4. Frameworks And Drivers", "{CE5D1F19-EB94-4630-8AC5-3E332575A0D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthWind.Sales.Entities", "NorthWind.Sales.Entities\NorthWind.Sales.Entities.csproj", "{D55B0C4B-132A-425E-B535-162A494BDA82}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D55B0C4B-132A-425E-B535-162A494BDA82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55B0C4B-132A-425E-B535-162A494BDA82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55B0C4B-132A-425E-B535-162A494BDA82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55B0C4B-132A-425E-B535-162A494BDA82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D55B0C4B-132A-425E-B535-162A494BDA82} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {83EFE89F-6BC3-43DF-9477-2F132DE50325}
